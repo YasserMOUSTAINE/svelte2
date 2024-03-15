@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-style{
+    @apply text-xl hover:text-cyan-300 duration-500 inline-flex mx-2
+}
+.li-footer{
+    @apply text-xs text-gray-500 py-0.5
+}
+.li-title{
+    @apply text-xs font-semibold text-gray-600
+}
